@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:rgb(90, 211, 179);
+    color:black;
+    height:100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+background-color: aliceblue;
+height: 20rem;
+width: 25rem;
+padding: 2rem;
+border-radius: 20px;
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:2rem;
+   font-size: 1.5rem;
+}
+.score{
+    color:green;
+    font-weight: bold;
+    align-self: flex-end;
+}
+input{
+    border:2px solid green;
+    outline:none;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+button[type="submit"]{
+outline:none;
+border-radius:10px;
+font-size:1rem;
+width: 100%;
+padding: .5rem;
+background-color: green;
+border:none;
+color:white;
+cursor: pointer;
+}
+#warnings{
+    background-color: brown;
+    color:white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: none;
+}
+
+.block-inside{
+    z-index: 1;
+    position: absolute;
+    right:12rem;
+    bottom:15rem;
+    height: 10rem;
+    width: 15rem;
+    background-color:black;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+   /* display: none; */
+}
+.block-inside p{
+    padding-top: 3rem;
+}
+.block-inside button{
+    outline:none;
+    padding: .25rem .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
