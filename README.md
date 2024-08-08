@@ -14,4 +14,6 @@
 
 <h2>Palindrome Checker:</h2> A tool that checks if a word or sentence is a palindrome. A palindrome reads the same forward and backward, such as "madam" or "racecar". This project was a fun way to practice string manipulation and logic in JavaScript.
 
+<h2>Roman Numeral Converter:</h2> A tool that converts modern numbers into their Roman numeral equivalents, such as converting 1987 to "MCMLXXXVII". This project allowed me to practice conditional logic and loops in JavaScript, as well as understand the structure of the Roman numeral system. It also involved input validation and creating a user-friendly interface.
+
 Each of these projects has been a stepping stone in my coding journey, providing valuable insights and practical experience. I'm excited to continue learning and creating!
