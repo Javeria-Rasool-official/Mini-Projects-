@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 40);
+    color:white;
+    gap:2rem;
+}
+.input-box{
+    padding: 3rem;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    flex-direction: column;
+    background-color: rgb(51, 51, 67);
+}
+.input-box button,input{
+    width: 400px;
+    height:3rem
+}
+h1{
+    text-align: center;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.15rem;
+}
+.input-box h2{
+    font-size: 2rem;
+}
+#convert-btn{
+    font-size: 1.5rem;
+    background-color: orange;
+    cursor: pointer;
+}
+.input-box input{
+    background-color:  rgb(4, 4, 40);
+    border:1px solid white;
+    color:white;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+.output-box{
+    background-color: rgb(51, 51, 67);
+    border:2px solid white;
+    width: 39%;
+    height: 7rem;
+    display: none;
+}
+#output{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
