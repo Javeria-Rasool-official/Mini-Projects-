@@ -16,4 +16,6 @@
 
 <h2>Roman Numeral Converter:</h2> A tool that converts modern numbers into their Roman numeral equivalents, such as converting 1987 to "MCMLXXXVII". This project allowed me to practice conditional logic and loops in JavaScript, as well as understand the structure of the Roman numeral system. It also involved input validation and creating a user-friendly interface.
 
+<h2>Task Manager:</h2>A backend API designed to manage tasks efficiently, enabling operations like creating, reading, updating, and deleting tasks (CRUD). This project helped me practice designing RESTful APIs with Node.js and Express, as well as integrating MongoDB for data storage. It focused on handling dynamic routes, understanding HTTP methods, and implementing input validation. The project also provided experience in testing APIs using tools like Postman and building a robust structure for handling task data.
+
 Each of these projects has been a stepping stone in my coding journey, providing valuable insights and practical experience. I'm excited to continue learning and creating!
